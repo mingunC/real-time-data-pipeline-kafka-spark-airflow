@@ -16,7 +16,7 @@ services:
       - ./airflow:/opt/airflow
       - ./:/opt/project
     ports:
-      - "8085:8080"
+      - "8086:8080"
     command: webserver
     depends_on:
       - airflow-init

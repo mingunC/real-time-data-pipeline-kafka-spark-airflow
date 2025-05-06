@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+
+# Spark
+derby.log
+metastore_db/
+spark-warehouse/
+output/
+
+# Airflow
+airflow/logs/
+airflow/airflow-webserver.pid
+
+# Data files
+*.csv
+*.parquet
+
+# Credentials
+*.json
+*.pem
+*.key
+gcp-key.json
